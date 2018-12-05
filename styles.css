@@ -1,57 +1,28 @@
-#main-container {
-    background: #000;
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: -8px;
 }
 
-#cover {
-    margin: 0 auto;
+
+.cover {
     max-width: 100%;
-    height: 100vh;
-    background-image: url('img/potential4.jpg');
-    background-repeat: no-repeat;
+    height: 95vh;
+    background-image: url('img/bg_img.jpg');
     background-size: cover;
-    position: absolute;
-    top: 0;
+    z-index: -5;
 }
 
-a {
-    color: #fff;
-}
-.navbar-brand {
-    color:black;
-    background: rgba(255,255,255, .8);
-    border-radius: 20px;
-    padding-right: 5px;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 200;
 }
 
-
-
-#content {
-    position: relative;
-    margin-top: 250px;
-    max-width: 80%;
-    height: 500px;
-    border: 1px solid red;
-}
-
-img {
-    max-width: 50px;
-    height: 50px;
-    margin-bottom: 20px;
-    color: rgba(255,255,255 .5);
-}
-
-@media (min-width: 768px) {
-    .navbar-centered .navbar-nav {
-        float: none;
-        text-align: center;
-    }
-    .navbar-centered .navbar-nav > li {
-        float: none;
-    }
-    .navbar-centered .nav > li {
-        display: inline;
-    }
-    .navbar-centered .nav > li > a {
-        display: inline-block;
-    }
+.column {
+    flex: 60%;
+    height: 300px;
+    background-size: cover;
+    text-align: center;
 }
