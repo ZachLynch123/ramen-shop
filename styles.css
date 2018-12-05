@@ -3,6 +3,7 @@
 }
 body {
     margin: -8px;
+    background-color: blanchedalmond;
 }
 
 
@@ -17,12 +18,27 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    z-index: 200;
+    margin-bottom: -20%;
 }
 
 .column {
-    flex: 60%;
-    height: 300px;
+    flex: 50%;
+    height: 80vh;
     background-size: cover;
     text-align: center;
+    display: table-cell;
+}
+
+.column.column-image {
+    position: relative;
+    max-width: 60%;
+    flex-grow: 50;
+    border: 5px solid;
+    z-index: 200;
+}
+
+.column.column-words {
+    padding-top: 90px;
+    max-width: 60vh;
+    z-index: -5;
 }
