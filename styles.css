@@ -3,7 +3,8 @@
 }
 body {
     margin: -8px;
-    background-color: blanchedalmond;
+    background-color: #fff7ea;
+    overflow-x: hidden;
 }
 
 
@@ -13,6 +14,7 @@ body {
     background-image: url('img/bg_img.jpg');
     background-size: cover;
     z-index: -5;
+
 }
 
 .content {
@@ -30,10 +32,30 @@ body {
 
 }
 
+.btn {
+    border: 2px solid black;
+    background: transparent;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    transition: .25s;
+}
+
+.btn:hover {
+    background: #000;
+    color:white;
+    padding: 10px 55px;
+}
+
 .container-fluid {
     margin: 32.5vh;
     text-align: center;
     color: white;
+}
+.container-fluid-text {
+    margin: 21.5vh;
+    text-align: center;
+    color: black;
 }
 
 .column-container1 {
@@ -44,5 +66,13 @@ body {
     margin-left: -10vw;
     border: 4px solid;
     background-position: 100% 100%;
+    overflow-x: hidden;
 
+}
+
+.container-fluid-text1{
+    margin: 21.5vh;
+    margin-left: -5px;
+    text-align: center;
+    color: black;
 }
