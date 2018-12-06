@@ -95,14 +95,15 @@ body {
     background: rgba(0, 0, 0, .5);
 }
 
-ul {
-    list-style-type: none;
+.social {
+    margin-right: 5px;
 }
 
-li {
-    display: inline-block;
-}
-li .footer-btn {
+.footer-btn {
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 1.3em;
+    float: left;
     border-radius: 100%;
     border: none;
     text-decoration: none;
@@ -112,9 +113,25 @@ li .footer-btn {
     transition: .25s
 }
 
-li .footer-btn:hover {
+.footer-btn:hover {
     background: orange;
     color: white;
+}
+
+.address {
+    float: right;
+    margin-right: 10px;
+
+}
+
+.address > a {
+    color: white;
+    line-height: 2px;
+    transition: .25s;
+}
+
+.address > a:hover {
+    color: orange;
 }
 
 @media (max-width: 768px) {
