@@ -14,7 +14,14 @@ body {
     background-image: url('img/bg_img.jpg');
     background-size: cover;
     z-index: -5;
+}
 
+.logo {
+    margin: 0 auto;
+    max-width: 20%;
+    height: 25vh;
+    background-image: url(img/logo.jpg);
+    border-radius: 20px;
 }
 
 .content {
@@ -79,9 +86,10 @@ body {
 
 .container-fluid-text1{
     margin-top: 21.5vh;
-    margin-left: -5px;
+    margin-left: 7vw;
     text-align: center;
     color: black;
+    max-width: 50%;
 }
 
 .stick {
@@ -141,13 +149,18 @@ li .footer-btn:hover {
 
     .container-fluid-text1 {
         margin-top: 10.5vh;
-        margin-left: -5px;
+        margin-left: 8px;
         padding: 20px;
+        max-width: 100%;
     }
 
     .column-container1 {
         background-size: 150% 75%;
         background-position-x: 61%;
+    }
+
+    #shop-text {
+        margin-left: 5vh;
     }
 
     .stick {
