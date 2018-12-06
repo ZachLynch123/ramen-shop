@@ -31,7 +31,7 @@ body {
 
 .column-container {
     background: url('https://www.berkeleyside.com/wp-content/uploads/2014/10/Ramen-Shop.-Photo-Ramen-Shop-720x498.jpg') no-repeat center;
-    background-size: 80% 100%;
+    background-size: 70% 100%;
     background-position-x: -43px;
     background-attachment: fixed;
     margin-top: -50px;
@@ -55,12 +55,12 @@ body {
 }
 
 .container-fluid {
-    margin: 32.5vh;
+    margin-top: 32.5vh;
     text-align: center;
     color: white;
 }
 .container-fluid-text {
-    margin: 21.5vh;
+    margin-top: 21.5vh;
     text-align: center;
     color: black;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 .container-fluid-text1{
-    margin: 21.5vh;
+    margin-top: 21.5vh;
     margin-left: -5px;
     text-align: center;
     color: black;
@@ -127,10 +127,30 @@ li .footer-btn:hover {
 
     .column-container {
         background-size: 178% 100%;
-
     }
+
+    .container-fluid {
+        margin-top: 30vh;
+    }
+
+    .container-fluid-text {
+        margin-top: 20vh;
+        padding: 20px;
+        border-bottom: 4px solid;
+    }
+
+    .container-fluid-text1 {
+        margin-top: 10.5vh;
+        margin-left: -5px;
+        padding: 20px;
+    }
+
     .column-container1 {
         background-size: 150% 75%;
         background-position-x: 61%;
+    }
+
+    .stick {
+        visibility: hidden;
     }
 }
