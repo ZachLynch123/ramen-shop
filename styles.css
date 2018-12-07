@@ -7,6 +7,44 @@ body {
     overflow-x: hidden;
 }
 
+#header {
+    display: flex;
+    flex-direction: row;
+    background: #000;
+    top: 0;
+    z-index: 10001;
+  }
+  .logo {
+      width: 45vw;
+  }
+
+  .restaurant {
+      margin-top: 33px;
+      color: #fff;
+      width: 25vw;
+  }
+  #header-img {
+    display: inline;
+    max-height: 70px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 20px 0px 20px 40px;
+  }
+
+  nav ul {
+      margin-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    width: 35vw;
+    font-size: 1.7em;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+  }
+  a {
+    color: #d6d4d3;
+    text-decoration: none;
+  }
+
 
 .cover {
     max-width: 100%;
@@ -14,14 +52,6 @@ body {
     background-image: url('img/bg_img.jpg');
     background-size: cover;
     z-index: -5;
-}
-
-.logo {
-    margin: 0 auto;
-    max-width: 20%;
-    height: 25vh;
-    background-image: url(img/logo.jpg);
-    border-radius: 20px;
 }
 
 .content {
